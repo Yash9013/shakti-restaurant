@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shakti Restaurant — Fresh, affordable, and comforting meals served with care in Udhana, Surat. Dine-in, takeaway & delivery available.">
+    <meta name="keywords" content="Shakti Restaurant, Udhana restaurant, Surat food, affordable meals, Indian food, dine-in Surat">
+    <meta name="author" content="Shakti Restaurant">
+    <meta property="og:title" content="Shakti Restaurant — Delicious Everyday Meals">
+    <meta property="og:description" content="Fresh, affordable, and comforting food served with care in Udhana, Surat.">
+    <meta property="og:type" content="restaurant">
+    <meta property="og:locale" content="en_IN">
+    <title>Shakti Restaurant | Delicious Everyday Meals in Udhana, Surat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">🍽️</span>
+                <div class="logo-text">
+                    <span class="logo-name">Shakti</span>
+                    <span class="logo-sub">Restaurant</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:+919876543210" class="nav-cta">Order Now</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="container hero-content">
+            <div class="hero-badge" data-animate="fade-up">
+                <span class="badge-star">⭐</span>
+                <span>4.5 Rating</span>
+                <span class="badge-divider">|</span>
+                <span>Local Favorite</span>
+            </div>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                Delicious Everyday Meals,<br>
+                <span class="hero-highlight">Just Around the Corner</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                Fresh, affordable, and comforting food served with care in Udhana, Surat.
+            </p>
+            <div class="hero-actions" data-animate="fade-up" data-delay="300">
+                <a href="tel:+919876543210" class="btn btn-primary" id="heroOrderBtn">
+                    <span class="btn-icon">📞</span> Order Now
+                </a>
+                <a href="#contact" class="btn btn-secondary" id="heroVisitBtn">
+                    <span class="btn-icon">📍</span> Visit Us Today
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                <div class="stat">
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Years Serving</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">1000+</span>
+                    <span class="stat-label">Happy Customers</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">50+</span>
+                    <span class="stat-label">Menu Items</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-animate="fade-right">
+                    <div class="about-img-wrapper">
+                        <img src="images/about-food.png" alt="Homestyle meal at Shakti Restaurant" loading="lazy">
+                        <div class="about-img-accent"></div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="exp-number">5+</span>
+                        <span class="exp-text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content" data-animate="fade-left">
+                    <span class="section-tag">Our Story</span>
+                    <h2 class="section-title">Where Every Meal<br>Feels Like <span class="highlight">Home</span></h2>
+                    <p class="about-text">
+                        At Shakti Restaurant, we believe great food doesn't have to be complicated. 
+                        We serve simple, delicious meals that feel like home — prepared with love, 
+                        care, and the freshest ingredients every single day.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <span class="feature-icon">🌿</span>
+                            <div>
+                                <h4>Fresh Ingredients</h4>
+                                <p>Sourced locally for quality and taste</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-icon">🧼</span>
+                            <div>
+                                <h4>Hygienic Cooking</h4>
+                                <p>Clean kitchen, fresh preparation daily</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <span class="feature-icon">😊</span>
+                            <div>
+                                <h4>Friendly Service</h4>
+                                <p>Warm hospitality, every single visit</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Our Menu</span>
+                <h2 class="section-title">Explore Our <span class="highlight">Favorites</span></h2>
+                <p class="section-desc">Simple, delicious, and prepared fresh — here's what's on the table today.</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card" data-animate="fade-up" data-delay="100">
+                    <div class="menu-card-icon">
+                        <span>🍛</span>
+                    </div>
+                    <div class="menu-card-glow"></div>
+                    <h3>Daily Meals</h3>
+                    <p>Complete thali with dal, rice, sabzi, roti, and more. A wholesome meal every day.</p>
+                    <ul class="menu-highlights">
+                        <li>Veg & Non-Veg Thali</li>
+                        <li>Rice & Dal Combos</li>
+                        <li>Roti & Sabzi Plate</li>
+                    </ul>
+                    <span class="menu-price-tag">Starting ₹80</span>
+                </div>
+                <div class="menu-card featured" data-animate="fade-up" data-delay="200">
+                    <div class="menu-card-badge">Popular</div>
+                    <div class="menu-card-icon">
+                        <span>🥘</span>
+                    </div>
+                    <div class="menu-card-glow"></div>
+                    <h3>Snacks</h3>
+                    <p>Crispy samosas, kachoris, bhajias, and a variety of chaat for your cravings.</p>
+                    <ul class="menu-highlights">
+                        <li>Samosa & Kachori</li>
+                        <li>Pav Bhaji</li>
+                        <li>Chaat & Bhajia</li>
+                    </ul>
+                    <span class="menu-price-tag">Starting ₹30</span>
+                </div>
+                <div class="menu-card" data-animate="fade-up" data-delay="300">
+                    <div class="menu-card-icon">
+                        <span>🥤</span>
+                    </div>
+                    <div class="menu-card-glow"></div>
+                    <h3>Beverages</h3>
+                    <p>Refreshing lassi, masala chai, fresh juices, and cold drinks to complement your meal.</p>
+                    <ul class="menu-highlights">
+                        <li>Masala Chai</li>
+                        <li>Lassi & Buttermilk</li>
+                        <li>Fresh Juices</li>
+                    </ul>
+                    <span class="menu-price-tag">Starting ₹20</span>
+                </div>
+            </div>
+            <div class="menu-cta" data-animate="fade-up">
+                <p>Craving something? We're just a call away!</p>
+                <a href="tel:+919876543210" class="btn btn-primary" id="menuCallBtn">
+                    <span class="btn-icon">📞</span> Call to Order
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Why Shakti</span>
+                <h2 class="section-title">Why Customers <span class="highlight">Choose Us</span></h2>
+                <p class="section-desc">Here's what makes Shakti Restaurant a neighborhood favorite.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-animate="fade-up" data-delay="100">
+                    <div class="why-icon-wrapper">
+                        <span class="why-icon">🏡</span>
+                    </div>
+                    <h3>Homely Taste</h3>
+                    <p>Food that reminds you of home — simple, fresh, and full of flavor.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="150">
+                    <div class="why-icon-wrapper">
+                        <span class="why-icon">⚡</span>
+                    </div>
+                    <h3>Quick Service</h3>
+                    <p>No long waits — your food arrives fresh and fast, every time.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="200">
+                    <div class="why-icon-wrapper">
+                        <span class="why-icon">🚗</span>
+                    </div>
+                    <h3>Drive-Through</h3>
+                    <p>In a hurry? Grab your meal on the go with our drive-through.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="250">
+                    <div class="why-icon-wrapper">
+                        <span class="why-icon">🧼</span>
+                    </div>
+                    <h3>Clean & Hygienic</h3>
+                    <p>We maintain top-notch cleanliness from kitchen to table.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="300">
+                    <div class="why-icon-wrapper">
+                        <span class="why-icon">📍</span>
+                    </div>
+                    <h3>Easy Location</h3>
+                    <p>Conveniently located in Udhana — easy to find, easy to reach.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Gallery</span>
+                <h2 class="section-title">A Glimpse of <span class="highlight">Shakti</span></h2>
+                <p class="section-desc">See what awaits you at our restaurant.</p>
+            </div>
+            <div class="gallery-grid" data-animate="fade-up">
+                <div class="gallery-item gallery-large">
+                    <img src="images/hero-food.png" alt="Indian thali meal spread at Shakti Restaurant" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Our Signature Thali</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-food1.png" alt="Butter paneer curry at Shakti Restaurant" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Fresh Paneer Curry</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-food2.png" alt="Crispy samosas and snacks" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Crispy Snacks</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-dining.png" alt="Shakti Restaurant dining area" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Cozy Dining Space</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-wide">
+                    <img src="images/gallery-exterior.png" alt="Shakti Restaurant exterior view" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Welcome to Shakti</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Customers <span class="highlight">Say</span></h2>
+            </div>
+            <div class="reviews-rating" data-animate="fade-up">
+                <div class="rating-stars">
+                    <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>✨</span>
+                </div>
+                <span class="rating-score">4.5</span>
+                <span class="rating-text">out of 5 · Based on customer reviews</span>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card" data-animate="fade-up" data-delay="100">
+                    <div class="review-quote">"</div>
+                    <p class="review-text">Great food and peaceful place. I come here every day for lunch — it feels just like home.</p>
+                    <div class="review-author">
+                        <div class="review-avatar">RP</div>
+                        <div>
+                            <h4>Rajesh Patel</h4>
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card" data-animate="fade-up" data-delay="200">
+                    <div class="review-quote">"</div>
+                    <p class="review-text">Affordable and tasty meals! The thali is fantastic and the staff is always friendly. Highly recommend.</p>
+                    <div class="review-author">
+                        <div class="review-avatar">PM</div>
+                        <div>
+                            <h4>Priya Mehta</h4>
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card" data-animate="fade-up" data-delay="300">
+                    <div class="review-quote">"</div>
+                    <p class="review-text">Best restaurant in Udhana for daily meals. Clean, quick, and delicious — what more do you need?</p>
+                    <div class="review-author">
+                        <div class="review-avatar">AS</div>
+                        <div>
+                            <h4>Amit Shah</h4>
+                            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <span class="section-tag">Find Us</span>
+                    <h2 class="section-title">Visit Us <span class="highlight">Today</span></h2>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Plot No-91 / 6, Shiv Ashish Society,<br>Near Surat Raktadan Kendra,<br>Udhana, Surat</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕐</span>
+                            <div>
+                                <h4>Working Hours</h4>
+                                <p>Open Daily · Closes at 10 PM</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-actions">
+                        <a href="https://maps.google.com/?q=Plot+No-91/6,+Shiv+Ashish+Society,+Near+Surat+Raktadan+Kendra,+Udhana,+Surat" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="getDirectionsBtn">
+                            <span class="btn-icon">🗺️</span> Get Directions
+                        </a>
+                        <a href="tel:+919876543210" class="btn btn-secondary" id="callNowBtn">
+                            <span class="btn-icon">📞</span> Call Now
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-map" data-animate="fade-left">
+                    <div class="map-wrapper">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.2!2d72.83!3d21.17!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDEwJzEyLjAiTiA3MsKwNDknNDguMCJF!5e0!3m2!1sen!2sin!4v1" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Shakti Restaurant Location on Google Maps">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta" id="final-cta">
+        <div class="final-cta-bg"></div>
+        <div class="container">
+            <div class="final-cta-content" data-animate="fade-up">
+                <span class="final-cta-emoji">🍽️</span>
+                <h2>Hungry? Your Next Meal is<br><span class="highlight">Just Minutes Away.</span></h2>
+                <p>Skip the cooking tonight — let Shakti take care of your meal.</p>
+                <div class="final-cta-actions">
+                    <a href="tel:+919876543210" class="btn btn-primary btn-large" id="finalOrderBtn">
+                        <span class="btn-icon">📞</span> Order Now
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-large" id="finalVisitBtn">
+                        <span class="btn-icon">📍</span> Visit Restaurant
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">🍽️</span>
+                        <div class="logo-text">
+                            <span class="logo-name">Shakti</span>
+                            <span class="logo-sub">Restaurant</span>
+                        </div>
+                    </a>
+                    <p class="footer-tagline">Serving Surat with Heart ❤️</p>
+                    <p class="footer-desc">Fresh, affordable, and comforting meals — every single day. Your trusted neighborhood restaurant in Udhana.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Our Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📍 Shiv Ashish Society, Udhana, Surat</li>
+                        <li>📞 +91 98765 43210</li>
+                        <li>🕐 Open Daily · Till 10 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Shakti Restaurant. All rights reserved.</p>
+                <p>Made with ❤️ in Surat</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Sticky CTA Bar -->
+    <div class="mobile-sticky-bar" id="mobileStickyBar">
+        <a href="tel:+919876543210" class="sticky-btn sticky-call" id="stickyCallBtn">
+            <span>📞</span> Call Now
+        </a>
+        <a href="tel:+919876543210" class="sticky-btn sticky-order" id="stickyOrderBtn">
+            <span>🛒</span> Order Now
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
